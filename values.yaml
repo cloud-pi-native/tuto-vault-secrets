@@ -1,0 +1,13 @@
+# Mount path of the secrets backend
+mount:
+
+# vaultAuth to use, empty value will result in "vault-auth" which is the default resource DSO create for you
+vaultAuthRef:
+
+# Where to store the kubernetes cluster
+destination:
+  # name of the secret in the namespace
+  name:
+
+# Path to the secret in the kv store
+vaultPath:
